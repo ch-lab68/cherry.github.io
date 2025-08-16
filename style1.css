@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: black;
+  background-color: #ffb6c1;;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  margin-bottom: 15px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: black;
+}
+.personalinfo{
+background-color:lightpink;
+padding:15px;
+margin-button:15px;
+border-left:4px solid #4CAF50;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.details{
+background-color:lightpink;
+padding:15px;
+margin-bottom:15px;
+border-left:4px solid #4CAF50;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+.project {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 4px solid #4CAF50;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills li {
+  background: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+#contact {
+  text-align:center ; 
+}
+
+#contact form {
+  display: inline-block; 
+  text-align: left;
+border-left: 4px solid #4CAF50;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);      
+}
+
+footer {
+  background-color:lightblue;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
